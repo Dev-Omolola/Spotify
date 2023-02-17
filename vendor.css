@@ -1,0 +1,235 @@
+section {
+    background-color: rgb(249, 249, 249);
+    height: 130vh;
+    overflow-x:hidden ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: none;
+    display: none;
+    
+}
+.nav button{
+    background: none;
+    border: none;
+    
+    
+
+}
+.search{
+    border: 2px solid rgb(186, 186, 186);
+    padding: 8px 10px;
+    
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 350px;
+}
+
+/* .modal-body{
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    top: 0;
+    right: -800px;
+
+    animation: animateright 0.4s ease-in;
+} */
+
+
+
+
+
+
+
+
+
+.btn-primary:focus-within .modal-body{
+    display: flex;
+    right:320px ;
+    
+    
+} 
+
+.pink {
+    background-image: linear-gradient(90deg, rgb(253, 203, 210), rgb(170, 113, 225), rgb(147, 89, 230));
+    height: 90vh;
+    position: relative;
+}
+
+.pink .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav span {
+    font-size: 20px;
+    color: white;
+}
+
+.img {
+    padding-top: 60px;
+
+}
+
+.vendors {
+    padding-top: 180px;
+
+    margin-left: auto;
+}
+
+.img img {
+
+    width: 105vh;
+    height: 80vh;
+}
+
+.vendors h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+}
+
+.vendors p {
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+}
+
+.input {
+    width: 85%;
+    margin: auto;
+    border: 2px solid rgb(186, 186, 186);
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.input input {
+    width: 95%;
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.input:hover {
+    border: 2px solid rgb(130, 90, 170);
+}
+
+main {
+    padding-top: 100px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pics {
+    /* border: 1px solid red; */
+    width: 350px;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+
+
+}
+
+.purple {
+    width: 200px;
+    height: 200px;
+
+    /* border: 1px solid purple; */
+    margin: auto;
+    padding: 50px 20px;
+    border-radius: 70%;
+    background-color: rgb(180, 155, 200);
+}
+
+.purple:hover {
+    background-color: rgba(180, 155, 200, 0.7);
+}
+
+.pics .purple-img {
+    width: 100px;
+}
+
+.pics img {
+    width: 120px;
+}
+
+.pics h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.pics p {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 70px;
+}
+
+.pics a {
+    color: rgb(26, 186, 83);
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+
+.pics a:hover {
+    color: rgb(76, 166, 106);
+}
+
+.black {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.black .logo,
+.black .footer {
+    /* border: 1px solid white; */
+
+
+}
+
+.footer {
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.usa {
+    display: flex;
+    align-items: center;
+
+    border: 2px solid white;
+    padding: 15px 25px;
+    font-size: 16px;
+}
+
+
+.AB {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+}
+.footer .footer1:hover{
+        color: rgb(26,186,67);
+        cursor: pointer;
+}

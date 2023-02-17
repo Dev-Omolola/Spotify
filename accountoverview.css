@@ -1,0 +1,220 @@
+body{
+    background-color: rgb(31,42,58);
+}
+
+nav{
+    background-color: black;
+    height: 80px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.blue{
+    height: 71vh;
+    background-image: linear-gradient(180deg, rgb(18,30,60), rgb(1,2,4));
+}
+.span .span1{
+    padding-left: 15px;
+}
+.black{
+    background-color: rgb(27,27,27);
+    height: 275vh;
+    
+}
+.bio {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+}
+
+.account {
+    background-color: rgb(83, 83, 83);
+    padding: 2px;
+    border-radius: 90%;
+}
+
+.arrow_drop_down {
+    transition: transform 0.5s;
+}
+
+.bio:focus-within .arrow_drop_down {
+    transform: rotate(0.5turn);
+}
+
+.arrow {
+    width: 80px;
+    justify-content: space-between;
+}
+
+.bg-dark {
+    border-radius: 90%;
+
+
+}
+.empty{
+    width: 10px;
+    height: 50px;
+    
+}
+.side1:hover .empty{
+   background-color: rgb(30,215,96);
+}
+.side1:focus-visible div{
+    color: white;
+}
+.side{
+    
+    height: 100%;
+    
+}
+.side1{
+    padding-bottom: 15px;
+    color: rgb(145,148,150);
+    cursor: pointer;
+}
+.side1 .div{
+    margin-left: 15px;
+    
+}
+.profile{
+    width: 180px;
+    
+}
+.profile span{
+    color: rgb(83, 83, 83);
+    font-size: 100px;
+    margin-left: 80px;
+    
+}
+
+.side2{
+    background-color: white;
+    height: 250vh;
+}
+.user{
+     width: 100%;
+    padding:15px 0;
+    border-bottom: 2px solid rgb(222, 222, 222);
+}
+.user1{
+   width: 80%;
+   font-weight: 600;
+}
+.email{
+    color: rgb(83, 83, 83);
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    transition: 0.2s;
+    background: transparent;
+
+}
+.btn:hover{
+    transform: scale(1.03);
+    border: 1.5px solid black;
+    background-color: transparent;
+}
+.pink{
+    background-color: rgb(255,210,215);
+    border-radius: 10px;
+    height: 85vh;
+    box-shadow: -3px -3px 3px 3px rgb(205,205,205);
+    box-shadow: 5px 5px rgb(205,205,205);
+}
+.trial{
+    padding: 80px 0;
+}
+.contain{
+    width: 90%;
+    margin: auto;
+}
+.contain h1{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.pink .white{
+    background-color: white;
+    width: 99%;
+    height: 288px;
+    margin: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.payment{
+    padding-top: 50px;
+}
+.p{
+    font-size: 12px;
+}
+.update a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    display: flex;
+    justify-content: end;
+    transition: 0.1s;
+    font-weight: 500;
+}
+.update a:hover{
+      transform: scale(1.02);
+      color: black;
+}
+.learn a{
+    color: black;
+}
+.grey{
+    background-color: rgb(248,248,248);
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-right: 8px ;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    
+}
+.contain a{
+    color:black;
+}
+.contain a:hover{
+      color: rgb(29,185,84);
+}
+footer{
+    background-color: black;
+    height: 80vh;
+}
+
+.blacks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+
+}
+.blacks a{
+    color: white;
+    text-decoration: none;
+}
+.blacks ul{
+    list-style: none;
+    color: rgb(145,148,150);
+    font-weight: 500;
+}
+footer a:hover{
+    color: rgb(29,185,84);
+}
+.footer div{
+     padding-left: 40px;
+}
+ul li{
+    padding:10px 0;
+}
+.font div{
+    padding: 20px;
+    background-color: rgb(34,35,38);
+    margin-left: 10px;
+    border-radius: 100%;
+}

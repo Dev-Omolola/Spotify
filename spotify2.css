@@ -1,0 +1,281 @@
+.side{
+    color: rgb(146,149,146);
+    padding-top:20px;
+}
+.home{
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   width: 90px;
+   /* border: 1px solid red; */
+   padding-bottom: 10px;
+
+}
+.home1{
+    width: 120px;
+}
+.hr{
+    border: 0.5px solid rgb(83, 83, 83);
+}
+.home:hover{
+    color: white;
+}
+.side p:hover{
+    color: white;
+}
+.middle1 {
+    background-image: linear-gradient(180deg, rgb(67, 57, 76), rgb(0, 0, 0));
+    
+    
+}
+
+
+nav {
+    position: sticky;
+
+    top: 0;
+    padding: 15px 25px;
+    background-color: black;
+    opacity: 0.7;
+    
+    /* background-color: rgba(0, 0, 0,0.5); */
+
+}
+/* .nav{
+    position: sticky;
+    background: none;
+} */
+
+.bio {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+}
+
+.account {
+    background-color: rgb(83, 83, 83);
+    padding: 2px;
+    border-radius: 90%;
+}
+
+.arrow_drop_down {
+    transition: transform 0.5s;
+}
+
+.bio:focus-within .arrow_drop_down {
+    transform: rotate(0.5turn);
+}
+
+.arrow {
+    width: 80px;
+    justify-content: space-between;
+}
+
+.bg-dark {
+    border-radius: 90%;
+
+
+}
+
+h2 {
+    color: white;
+}
+
+.div {
+    background-color: rgba(83, 83, 83, 0.3);
+    width: 48%;
+    margin-bottom: 15px;
+
+
+}
+
+.asake {
+    width: 150px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.img img {
+    width: 60px;
+}
+
+.play {
+    background-color: rgb(30, 216, 97);
+    border: 1px rgb(30, 216, 97);
+    padding-left: 13px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 100%;
+    display: none;
+
+}
+.div:hover .play{
+      display: flex;
+    
+}
+.div:hover{
+    background-color: rgba(83, 83, 83, 0.5);
+    cursor: pointer;
+}
+.naija{
+    margin-top: 20px;
+}
+.naija a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+.naija a:hover{
+    text-decoration: underline;
+}
+.bubble{
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.bubble img{
+    border-radius: 10px;
+    
+}
+.bubble p{
+
+    color: rgb(83, 83, 83);
+    font-size: 14px;
+    text-align: center;
+}
+.playa {
+    background-color: rgb(30, 216, 97);
+    border: 1px rgb(30, 216, 97);
+    padding: 10px 13px;
+    border-radius: 100%;
+    display: none;
+    position: absolute;
+    right: 30px;
+    bottom: 120px;
+    
+
+}
+.bubble:hover{
+    background-color: rgba(83, 83, 83, 0.5);
+}
+.bubble:hover .playa{
+    display: block ;
+}
+.add{
+  width: 50px;
+  justify-content: space-between;
+  color: rgb(83, 83, 83);
+  margin-right: 15px;
+}
+.friends{
+    background-color: black;
+    color: white;
+    position: sticky;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    
+}
+.person{
+    padding: 5px;
+
+}
+.person {
+    cursor: pointer;
+}
+.add button{
+    background: none;
+    color: rgb(83, 83, 83);
+    
+}
+.add button:hover{
+    color: white;
+}
+.person:hover{
+   background-color: rgba(83, 83, 83,0.3);
+   border-radius: 90%; 
+   color: white;
+
+}
+.side{
+     background-color: black;
+     position: sticky;
+     left: 0;
+     top: 0;
+     height: 100vh;
+     
+}
+.side-profile{
+    /* border: 1px solid red; */
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.side-person{
+    /* border: 1px solid red; */
+    padding: 10px;
+    border-radius: 100%;
+    background-color: rgb(51, 51, 51);
+    
+}
+.line1,.line2,.line3{
+    width: 80px;
+    /* border: 1px solid red; */
+    padding: 5px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.line1{
+    width: 120px;
+}
+.let p{
+    font-size: 14px;
+}
+.btn-light{
+   margin-left: 80px;
+    padding:10px 25px;
+    border-radius: 30px;
+    transition: 0.1s;
+    
+    font-weight: 600;
+}
+.btn-light:hover{
+    transform: scale(1.05);
+    background-color: white;
+}
+/* @media screen and (max-width:1029.33px) {
+    .whole{
+        width: fit-content;
+
+    }
+    
+    .side{
+        width: 15%;
+        
+    }
+    .middle{
+        width: 85%;
+        right: 0;
+        position: absolute;
+    }
+    .friends{
+        display: none;
+    }
+} */
+@media (max-width:771.33px) {
+    .side1,.side2{
+        display: none;
+    }
+    .middle{
+      min-width:calc(100vh-771.33px);
+      display: grid;
+    }
+}
